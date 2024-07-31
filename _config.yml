@@ -132,8 +132,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Hello stranger! (˶ᵔ ᵕ ᵔ˶) # blog_name will be displayed in your blog page
+blog_description: Here you will find the results of my experiments, reviews of my own and others' papers, breakdowns of various concepts, and much more!
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
