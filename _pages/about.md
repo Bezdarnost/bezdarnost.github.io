@@ -2,24 +2,45 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile1.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>My email: amanurumbekov@gmail.com</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+👨‍🎓 **Student Life:**
+I'm a third-year undergraduate student at Kyrgyz State Technical University named after I. Razzakov. Pursuing a Bachelor's degree in Machine Learning and Data Science with GPA: 3.94/4.0.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+🔬 **Research Focus:**
+As a dedicated researcher, I specialize in super-resolution and low-level vision tasks. Currently, I'm working on hybrid models combining Mamba and Transformers to push the boundaries of what's possible in image enhancement. It's a collaboration work with an awesome scientist, [Zheng Chen](https://zhengchen1999.github.io/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+📘 **Author in Progress:**
+I'm writing a book titled "Computer Vision with Neural Networks: from Zero to Hero." My goal is to bridge the gap between beginners and professionals, making this fascinating topic accessible to all and providing new insights to seasoned experts.
+
+🇨🇭 **Professional Work:**
+I work for a Swiss company and am the lead author of a Super-Resolution algorithm for satellite images. You can check out my work at [earthtodate.com](https://earthtodate.com).
+
+🎓 **Educational Contributions:**
+I conduct a series of advanced training lectures on Computer Vision at my university and other private companies, sharing my knowledge and passion with others.
+
+🔍 **Research Interests:**
+My main scientific interests include super-resolution, image quality enhancement, image generation, and particularly various innovations in the architecture and design of neural networks.
+
+👨‍🔬 **Research Aspirations:**
+I'm highly motivated and eager to join a research group or find a professor with whom I can collaborate to make new discoveries. I'm always looking for opportunities to contribute and learn.
+
+🎮 **Fun Facts:**
+
+- **Minesweeper Master:** My personal best for solving a medium-level Minesweeper (16x16, 40 mines) is 26 seconds.
+- **Top player in mobile game:** I rank in the top 500 among 1M+ players in F-Adventurer.
+- **Manga/Manhwa maniac:** I read over 20k+ chapters of manga/manhwa.
+
+Feel free to reach out if you're interested in research collaborations or just want to chat about neural networks and gaming!
