@@ -8,7 +8,7 @@ middle_name: # I DON'T HAVE MIDDLE NAME, PLEASE, DON'T GIVE ME WANRNING
 last_name: Urumbekov
 email: amanurumbekov@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Aman Urumbekov: passionate about super-resolution and neural networks, researcher, and book author
+  Aman Urumbekov: passionate about super-resolution and neural networks, researcher, and book author.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
