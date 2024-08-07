@@ -26,7 +26,7 @@ As a dedicated researcher, I specialize in super-resolution and low-level vision
 I'm writing a book titled "Computer Vision with Neural Networks: from Zero to Hero." My goal is to bridge the gap between beginners and professionals, making this fascinating topic accessible to all and providing new insights to seasoned experts.
 
 🇨🇭 **Professional Work:**
-I work for a Swiss company and am the lead author of a Super-Resolution algorithm for satellite images. You can check out my work at [earthtodate.com](https://earthtodate.com).
+I work for a Swiss company and am the lead author of a super-resolution algorithms for satellite images. You can check out my work at [earthtodate.com](https://earthtodate.com) and [skycues.com](https://skycues.com/). On Earthtodate, I demonstrate that it is possible to achieve high quality and scaling up to x16 with good quality if the camera and other parameters are well-studied, allowing for precise tuning. On Skycues, I show that it is possible to create an algorithm that can generalize to almost any data and their scales.
 
 🎓 **Educational Contributions:**
 I conduct a series of advanced training lectures on Computer Vision at my university and other private companies, sharing my knowledge and passion with others.
