@@ -45,5 +45,4 @@ I'm highly motivated and eager to join a research group or find a professor with
 
 Feel free to reach out if you're interested in research collaborations or just want to chat about neural networks and gaming!
 
-*“Like a child yearning to join the playground, I don't want to just watch; I want to be a part of it. From Aman to the scientific community.”*
-
+*"Like a child yearning to join the playground, I don't want to just watch; I want to be a part of it. From Aman to the scientific community."*
