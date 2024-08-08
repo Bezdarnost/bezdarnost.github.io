@@ -43,6 +43,6 @@ I'm highly motivated and eager to join a research group or find a professor with
 - **Top player in mobile game:** I rank in the top 500 among 1M+ players in F-Adventurer.
 - **Manga/Manhwa maniac:** I read over 20k+ chapters of manga/manhwa.
 
-Like a child yearning to join the playground, I don't want to just watch; I want to be a part of it. From Aman to the scientific community.
+>**"Like a child yearning to join the playground, I don't want to just watch; I want to be a part of it. From Aman to the scientific community."**
 
 Feel free to reach out if you're interested in research collaborations or just want to chat about neural networks and gaming!
