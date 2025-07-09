@@ -21,7 +21,7 @@ As a dedicated researcher, I specialize in diffusion models, VLM post-train and 
 
 🎮 **Fun Facts:**
 
-- **Minesweeper Master:** My personal best for solving a medium-level Minesweeper (16x16, 40 mines) is 25 seconds.
+- **Minesweeper Master:** My personal best for solving a medium-level Minesweeper (16x16, 40 mines) is 23 seconds.
 - **Top player in mobile game:** I rank in the top 400 among 1M+ players in F-Adventurer.
 - **Manga/Manhwa maniac:** I read over 20k+ chapters of manga/manhwa.
 
