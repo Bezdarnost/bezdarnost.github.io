@@ -22,4 +22,3 @@ This page is simply a collection of quotes, phrases, verses, and random snippets
 > Better a terrible end than an endless terror. (28.03.2026)
 
 > There is nothing wrong with you, buddy. You're just painfully average. (26.03.2026)
-
