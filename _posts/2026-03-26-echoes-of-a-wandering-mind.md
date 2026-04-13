@@ -9,6 +9,13 @@ categories:
 
 This page is simply a collection of quotes, phrases, verses, and random snippets that caught my attention at various stages of my life. **IT MIGHT BE CRINGE.** I just need a place to offload some of the clutter from my head. I'm human, and that's perfectly normal.
 
+> Later...
+> Later, the coffee gets cold,
+> Later, people grow old,
+> Later, life comes to an end.
+> And the truth is,
+> "Later" too often means "never." (13.04.2026)
+
 > Two looked through a single window.\
 > One saw rain and mud below.\
 > The other saw the green leaves' lace,\
