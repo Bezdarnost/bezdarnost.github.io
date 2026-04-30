@@ -36,7 +36,7 @@ This page is simply a collection of quotes, phrases, verses, and random snippets
 > Springtime, and the blue sky's grace.\
 > Two looked through a single window. (04.04.2026)
 
-*(This is a translation to English from my native language. There is a very similar analogue in English: "Two men look out through the same bars: One sees the mud, and one the stars." But honestly, I love it less.)*
+_(This is a translation to English from my native language. There is a very similar analogue in English: "Two men look out through the same bars: One sees the mud, and one the stars." But honestly, I love it less.)_
 
 > What's meant for you won't pass you by. (28.03.2026)
 

@@ -16,9 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Currently, I'm working on some exciting GenAI stuff at a stealth startup. 
+Currently, I'm working on some exciting GenAI stuff at a stealth startup.
 
 I have skills in this topics:
+
 - Diffusion model pretrain and post-train.
 - VLM post-train.
 - And some triton optimization.
