@@ -9,6 +9,9 @@ categories:
 
 This page is simply a collection of quotes, phrases, verses, and random snippets that caught my attention at various stages of my life. **IT MIGHT BE CRINGE.** I just need a place to offload some of the clutter from my head. I'm human, and that's perfectly normal.
 
+> And beneath me, the Earth keeps spinning out of spite,
+> As if absolutely nothing had happened. (30.05.2026)
+
 > My soul is the size of a needle,\
 > And I am a stack of hay,\
 > Everyone tries to reach it,\
@@ -36,7 +39,7 @@ This page is simply a collection of quotes, phrases, verses, and random snippets
 > Springtime, and the blue sky's grace.\
 > Two looked through a single window. (04.04.2026)
 
-_(This is a translation to English from my native language. There is a very similar analogue in English: "Two men look out through the same bars: One sees the mud, and one the stars." But honestly, I love it less.)_
+*(This is a translation to English from my native language. There is a very similar analogue in English: "Two men look out through the same bars: One sees the mud, and one the stars." But honestly, I love it less.)*
 
 > What's meant for you won't pass you by. (28.03.2026)
 
