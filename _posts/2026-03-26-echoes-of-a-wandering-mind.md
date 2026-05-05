@@ -9,13 +9,21 @@ categories:
 
 This page is simply a collection of quotes, phrases, verses, and random snippets that caught my attention at various stages of my life. **IT MIGHT BE CRINGE.** I just need a place to offload some of the clutter from my head. I'm human, and that's perfectly normal.
 
+
+
+> Someone asked God:\
+> "If everything is already written in my destiny, then why should I wish?"\
+> God smiled and said:\
+> "Maybe on some pages I've written..."\
+> "As you wish." (06.05.2026)
+
 > And beneath me, the Earth keeps spinning out of spite,\
 > As if absolutely nothing had happened. (30.05.2026)
 
 > My soul is the size of a needle,\
 > And I am a stack of hay,\
 > Everyone tries to reach it,\
-> But no one has found the way. (30.05.2026)
+> But no one has found the way. (30.04.2026)
 
 > My sweet girl Sasha is an experienced heartbreaker,\
 > Just like me, frankly speaking, but we won't speak frankly to each other (no).\
@@ -24,7 +32,7 @@ This page is simply a collection of quotes, phrases, verses, and random snippets
 > But no matter how full our vessels may be,\
 > Sooner or later, we will drain each other dry.\
 > And you can't see the stars reflected in dried-up puddles,\
-> So leaving without slamming the door—is all you're ready to offer me. (30.05.2026)
+> So leaving without slamming the door—is all you're ready to offer me. (30.04.2026)
 
 > Later...\
 > Later, the coffee gets cold,\
