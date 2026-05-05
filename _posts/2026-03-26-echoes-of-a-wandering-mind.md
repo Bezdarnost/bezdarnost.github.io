@@ -9,7 +9,7 @@ categories:
 
 This page is simply a collection of quotes, phrases, verses, and random snippets that caught my attention at various stages of my life. **IT MIGHT BE CRINGE.** I just need a place to offload some of the clutter from my head. I'm human, and that's perfectly normal.
 
-
+> One summer morning in early July, a long letter arrived from my girlfriend saying she wanted to break up with me. She wrote that she had loved me, still loved me, and would always love me... and so on. Basically, that kind of goodbye. She had found herself a new boyfriend. Shaking my head, I smoked six cigarettes, went outside and drank a can of beer, came back inside and lit up again. Then I snapped three long pencils that were lying on the desk. I wasn't really angry. I just didn't know what to do. In the end, I changed my clothes and went to work. (06.05.2026)
 
 > Someone asked God:\
 > "If everything is already written in my destiny, then why should I wish?"\
