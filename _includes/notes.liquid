@@ -1,10 +1,13 @@
-{% assign notes = site.notes | sort: "date" %}
+{% assign notes = site.notes | sort: 'date' %}
 
 <div class="notes-feed">
   {% for note in notes %}
     <article class="note-card{% if note.featured %} note-card--featured{% endif %}">
       <header class="note-card-header">
-        <span class="note-index">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+        <span class="note-index">
+          {%- if forloop.index < 10 %}0{% endif -%}
+          {{- forloop.index -}}
+        </span>
         {% if note.kind %}
           <span class="note-kind">{{ note.kind }}</span>
         {% endif %}
@@ -12,7 +15,7 @@
           <span class="note-tag">{{ tag }}</span>
         {% endfor %}
         {% if note.date %}
-          <time class="note-date" datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: "%b %Y" }}</time>
+          <time class="note-date" datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: '%b %Y' }}</time>
         {% endif %}
       </header>
 
@@ -70,7 +73,8 @@
                 <span class="note-paper-label">paper</span>
                 <span class="note-paper-title">{{ paper.title }}</span>
                 <span class="note-paper-meta">
-                  {{- paper.authors }}{% if paper.year %}, {{ paper.year }}{% endif -%}
+                  {{- paper.authors -}}
+                  {%- if paper.year %}, {{ paper.year }}{% endif -%}
                 </span>
               </a>
             </li>
@@ -82,12 +86,12 @@
         <footer class="note-source">
           {% if note.source_url %}
             <a href="{{ note.source_url }}" target="_blank" rel="noopener noreferrer">
-              {% if note.kind == "tweet" %}
+              {% if note.kind == 'tweet' %}
                 <i class="fa-brands fa-x-twitter"></i>
               {% else %}
                 <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
               {% endif %}
-              {{ note.source_name | default: "source" }}
+              {{ note.source_name | default: 'source' }}
             </a>
           {% elsif note.source_name %}
             <span>{{ note.source_name }}</span>

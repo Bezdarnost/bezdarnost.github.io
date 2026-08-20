@@ -9,8 +9,8 @@ tags:
   - Switch Transformers
 aphorism:
   lines:
-    - 'FLOPs were <em>intelligence</em>;'
-    - 'parameters were <em>knowledge</em>!'
+    - "FLOPs were <em>intelligence</em>;"
+    - "parameters were <em>knowledge</em>!"
   by: Noam Shazeer
   via: Liam Fedus
 facts:
@@ -33,6 +33,6 @@ Prompted by [Jie Tang](https://x.com/jietang)'s history of scaling laws, [Liam F
 
 In 2020, they explored the limits of sparsity by routing each token to only 1 out of 2048 experts — in retrospect, a bold choice. The model had fewer than 3B activated parameters, but 1.6T total parameters, comparable to today's frontier models.
 
-The 1.6T model achieved better C4 perplexities than the T5 models using far less compute, set a new SOTA on TriviaQA, but was *dumb as bricks* on reasoning tasks like SuperGLUE.
+The 1.6T model achieved better C4 perplexities than the T5 models using far less compute, set a new SOTA on TriviaQA, but was _dumb as bricks_ on reasoning tasks like SuperGLUE.
 
 The lesson: the optimal tokens-per-parameter ratio is highly task-dependent.
