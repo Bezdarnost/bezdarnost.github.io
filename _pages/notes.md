@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /notes/
-title: notes
+title: Notes
 description: Papers, posts, and other bullet points worth keeping.
 nav: true
 nav_order: 3

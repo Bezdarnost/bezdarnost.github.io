@@ -8,12 +8,11 @@ middle_name: # I DON'T HAVE MIDDLE NAME, PLEASE, DON'T GIVE ME WANRNING
 last_name: Urumbekov
 email: amanurumbekov@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Aman Urumbekov: passionate about super-resolution and neural networks, researcher, and book author.
+  Aman Urumbekov — GenAI researcher working on diffusion, VLMs, and systems.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>
+  and <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener">al-folio</a>.
+keywords: GenAI, diffusion models, VLM, researcher
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: web_icon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -54,7 +53,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 980px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -481,7 +480,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
