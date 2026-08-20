@@ -1,0 +1,295 @@
+/*******************************************************************************
+ * Notes page — papers, posts, and other fragments worth keeping.
+ ******************************************************************************/
+
+.notes-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.note-card {
+  position: relative;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  padding: 1.75rem 1.75rem 1.4rem;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    background: var(--global-theme-color);
+    opacity: 0.85;
+  }
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  }
+}
+
+html[data-theme="dark"] .note-card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.note-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.65rem;
+  margin-bottom: 1.35rem;
+}
+
+.note-index {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--global-text-color-light);
+  margin-right: 0.15rem;
+}
+
+.note-kind,
+.note-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  line-height: 1.4;
+}
+
+.note-kind {
+  color: var(--global-hover-text-color);
+  background: var(--global-theme-color);
+}
+
+.note-tag {
+  color: var(--global-text-color-light);
+  border: 1px solid var(--global-divider-color);
+  background: transparent;
+}
+
+.note-date {
+  margin-left: auto;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  letter-spacing: 0.02em;
+}
+
+.note-aphorism {
+  border: none;
+  background: transparent;
+  margin: 0 0 1.6rem;
+  padding: 0.15rem 0 0;
+  font-size: inherit;
+
+  &::before {
+    content: "“";
+    display: block;
+    font-family: "Roboto Slab", Georgia, serif;
+    font-size: 3.4rem;
+    font-weight: 100;
+    line-height: 0.55;
+    color: var(--global-theme-color);
+    margin-bottom: 0.55rem;
+  }
+
+  p {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .note-aphorism-line {
+    display: block;
+    font-family: "Roboto Slab", Georgia, serif;
+    font-weight: 300;
+    font-size: clamp(1.45rem, 3.4vw, 2.15rem);
+    line-height: 1.3;
+    letter-spacing: -0.025em;
+    color: var(--global-text-color);
+
+    em {
+      font-style: italic;
+      font-weight: 400;
+      color: var(--global-theme-color);
+    }
+  }
+
+  footer {
+    margin-top: 1.05rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  cite {
+    font-style: normal;
+    font-weight: 500;
+    color: var(--global-text-color);
+
+    &::before {
+      content: "— ";
+      font-weight: 400;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  .note-aphorism-via {
+    display: block;
+    margin-top: 0.15rem;
+    padding-left: 1.15rem;
+    font-size: 0.82rem;
+  }
+}
+
+.note-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+
+  > div {
+    text-align: center;
+    padding: 0.15rem 0.4rem;
+  }
+
+  dt {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--global-text-color);
+    margin: 0;
+  }
+
+  dd {
+    margin: 0.25rem 0 0;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+}
+
+.note-body {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--global-text-color);
+
+  p {
+    margin-bottom: 0.9rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  em {
+    color: var(--global-text-color);
+  }
+}
+
+.note-papers {
+  list-style: none;
+  margin: 1.35rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.note-paper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.55rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 10px;
+  background: var(--global-code-bg-color);
+  text-decoration: none !important;
+  transition: transform 0.15s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+
+    .note-paper-title {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.note-paper-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+
+.note-paper-title {
+  font-weight: 500;
+  color: var(--global-text-color);
+}
+
+.note-paper-meta {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+}
+
+.note-source {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.75rem;
+  margin-top: 1.25rem;
+  padding-top: 0.95rem;
+  border-top: 1px dashed var(--global-divider-color);
+  font-size: 0.85rem;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .fa-brands,
+  .fa-solid {
+    margin-right: 0.3rem;
+    opacity: 0.85;
+  }
+}
+
+@media (max-width: 640px) {
+  .note-card {
+    padding: 1.35rem 1.2rem 1.15rem;
+  }
+
+  .note-date {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .note-facts {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+    text-align: center;
+  }
+
+  .note-aphorism .note-aphorism-line {
+    font-size: 1.4rem;
+  }
+}

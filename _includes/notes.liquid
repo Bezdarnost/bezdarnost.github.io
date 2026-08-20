@@ -1,0 +1,99 @@
+{% assign notes = site.notes | sort: "date" %}
+
+<div class="notes-feed">
+  {% for note in notes %}
+    <article class="note-card{% if note.featured %} note-card--featured{% endif %}">
+      <header class="note-card-header">
+        <span class="note-index">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+        {% if note.kind %}
+          <span class="note-kind">{{ note.kind }}</span>
+        {% endif %}
+        {% for tag in note.tags %}
+          <span class="note-tag">{{ tag }}</span>
+        {% endfor %}
+        {% if note.date %}
+          <time class="note-date" datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: "%b %Y" }}</time>
+        {% endif %}
+      </header>
+
+      {% if note.aphorism %}
+        <blockquote class="note-aphorism">
+          <p>
+            {% for line in note.aphorism.lines %}
+              <span class="note-aphorism-line">{{ line }}</span>
+            {% endfor %}
+          </p>
+          {% if note.aphorism.by or note.aphorism.via %}
+            <footer>
+              {% if note.aphorism.by %}
+                <cite>{{ note.aphorism.by }}</cite>
+              {% endif %}
+              {% if note.aphorism.via %}
+                <span class="note-aphorism-via">as recalled by {{ note.aphorism.via }}</span>
+              {% endif %}
+            </footer>
+          {% endif %}
+        </blockquote>
+      {% elsif note.quote %}
+        <blockquote class="note-aphorism">
+          <p>
+            <span class="note-aphorism-line">{{ note.quote }}</span>
+          </p>
+          {% if note.quote_by %}
+            <footer>
+              <cite>{{ note.quote_by }}</cite>
+            </footer>
+          {% endif %}
+        </blockquote>
+      {% endif %}
+
+      {% if note.facts %}
+        <dl class="note-facts">
+          {% for fact in note.facts %}
+            <div>
+              <dt>{{ fact.value }}</dt>
+              <dd>{{ fact.label }}</dd>
+            </div>
+          {% endfor %}
+        </dl>
+      {% endif %}
+
+      <div class="note-body">
+        {{ note.content }}
+      </div>
+
+      {% if note.papers %}
+        <ul class="note-papers">
+          {% for paper in note.papers %}
+            <li>
+              <a class="note-paper" href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">
+                <span class="note-paper-label">paper</span>
+                <span class="note-paper-title">{{ paper.title }}</span>
+                <span class="note-paper-meta">
+                  {{- paper.authors }}{% if paper.year %}, {{ paper.year }}{% endif -%}
+                </span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if note.source_url or note.source_name %}
+        <footer class="note-source">
+          {% if note.source_url %}
+            <a href="{{ note.source_url }}" target="_blank" rel="noopener noreferrer">
+              {% if note.kind == "tweet" %}
+                <i class="fa-brands fa-x-twitter"></i>
+              {% else %}
+                <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+              {% endif %}
+              {{ note.source_name | default: "source" }}
+            </a>
+          {% elsif note.source_name %}
+            <span>{{ note.source_name }}</span>
+          {% endif %}
+        </footer>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

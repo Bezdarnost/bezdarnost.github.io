@@ -191,6 +191,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  notes:
+    output: false
 
 announcements:
   enabled: true
