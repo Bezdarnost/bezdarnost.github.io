@@ -178,7 +178,7 @@ In-text links point at PDFs or arXiv abstracts. I list them here in roughly hist
 - Kondratyuk, D., et al. (2023). VideoPoet: A large language model for zero-shot video generation. [arXiv:2312.14125](https://arxiv.org/abs/2312.14125)
 - Esser, P., et al. (2024). Scaling rectified flow transformers for high-resolution image synthesis. [arXiv:2403.03206](https://arxiv.org/abs/2403.03206)
 - Tian, K., et al. (2024). Visual autoregressive modeling: Scalable image generation via next-scale prediction. [arXiv:2404.02905](https://arxiv.org/abs/2404.02905)
-- Brooks, T., et al. (2024). Video generation models as world simulators. OpenAI. [report](https://en.wikipedia.org/wiki/Sora_(text-to-video_model))
+- Brooks, T., et al. (2024). Video generation models as world simulators. OpenAI technical report. [overview](https://en.wikipedia.org/wiki/Sora_(text-to-video_model))
 - Chameleon Team. (2024). Chameleon: Mixed-modal early-fusion foundation models. [arXiv:2405.09818](https://arxiv.org/abs/2405.09818)
 - Sun, P., et al. (2024). Autoregressive model beats diffusion: Llama for scalable image generation. [arXiv:2406.06525](https://arxiv.org/abs/2406.06525)
 - Li, T., et al. (2024). Autoregressive image generation without vector quantization. [arXiv:2406.11838](https://arxiv.org/abs/2406.11838)
