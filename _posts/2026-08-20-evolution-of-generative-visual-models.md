@@ -21,7 +21,7 @@ This is a walk through that path: density models, adversarial games, autoregress
 
 ## What "generative" used to mean
 
-Before neural nets took over, vision already had generative stories. Sparse coding argued that natural images are produced by a small number of causes, and that V1 simple cells look the way they do because they invert that process ([Olshausen & Field, 1996](https://www.nature.com/articles/381607a0)). Boltzmann machines and restricted Boltzmann machines treated an image as a visible layer coupled to latent factors ([Smolensky, 1986](https://stanford.edu/~jlmcc/papers/PDP/Volume%201/Chap6_PDP86.pdf); [Hinton, 2002](https://www.cs.toronto.edu/~hinton/absps/nccd.pdf)). Deep belief networks stacked those layers and, briefly, made unsupervised pretraining the default way to train a deep net ([Hinton, Osindero & Teh, 2006](https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf); [Hinton & Salakhutdinov, 2006](https://www.cs.toronto.edu/~hinton/science.pdf)).
+Before neural nets took over, vision already had generative stories. Sparse coding argued that natural images are produced by a small number of causes, and that V1 simple cells look the way they do because they invert that process ([Olshausen & Field, 1996](https://www.nature.com/articles/381607a0)). Boltzmann machines and restricted Boltzmann machines treated an image as a visible layer coupled to latent factors ([Smolensky, 1986](https://stanford.edu/~jlmcc/papers/PDP/Volume%201/Chap6_PDP86.pdf); [Hinton, 2002](https://www.cs.toronto.edu/~hinton/absps/nccd.pdf)). Deep belief networks stacked those layers and, briefly, made unsupervised pretraining the default way to train a deep net ([Hinton, Osindero & Teh, 2006](https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf); [Hinton & Salakhutdinov, 2006](https://www.cs.toronto.edu/~hinton/absps/science.pdf)).
 
 Two ideas from that era never really left:
 
@@ -93,7 +93,7 @@ A few technical moves turned T2I models into that substrate.
 
 **Language and pixels in one network.** Chameleon tokenizes images and trains an early-fusion transformer on mixed sequences ([Chameleon Team, 2024](https://arxiv.org/abs/2405.09818)). Show-o and Janus-style models try to be both understanders and generators without two full stacks ([Xie et al., 2024](https://arxiv.org/abs/2408.12528); [Wu et al., 2024](https://arxiv.org/abs/2410.13848)). This is the visual analogue of "the model is the product": not a sampler you wrap with a prompt, but a multimodal prior you talk to.
 
-**Time.** Images were the gym. Video is the actual sport. Stable Video Diffusion adapted image latents to temporal generation ([Blattmann et al., 2023](https://arxiv.org/abs/2311.15127)). VideoPoet treated video as a codec-token sequence modeled by a language model ([Kondratyuk et al., 2023](https://arxiv.org/abs/2312.14125)). Sora's report framed video models as world simulators rather than as T2I with extra frames ([Brooks et al., 2024](https://openai.com/index/video-generation-models-as-world-simulators/)). Whether that framing is true is an empirical question. That it is _sayable_ tells you the aspiration of current visual FMs: a prior over spatiotemporal reality, conditioned on language, usable as a tool.
+**Time.** Images were the gym. Video is the actual sport. Stable Video Diffusion adapted image latents to temporal generation ([Blattmann et al., 2023](https://arxiv.org/abs/2311.15127)). VideoPoet treated video as a codec-token sequence modeled by a language model ([Kondratyuk et al., 2023](https://arxiv.org/abs/2312.14125)). Sora's report framed video models as world simulators rather than as T2I with extra frames ([Brooks et al., 2024](https://en.wikipedia.org/wiki/Sora_(text-to-video_model))). Whether that framing is true is an empirical question. That it is _sayable_ tells you the aspiration of current visual FMs: a prior over spatiotemporal reality, conditioned on language, usable as a tool.
 
 ## A compressed timeline
 
@@ -134,7 +134,7 @@ In-text links point at PDFs or arXiv abstracts. I list them here in roughly hist
 - Olshausen, B. A., & Field, D. J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. _Nature_. [paper](https://www.nature.com/articles/381607a0)
 - Hinton, G. E. (2002). Training products of experts by minimizing contrastive divergence. _Neural Computation_. [PDF](https://www.cs.toronto.edu/~hinton/absps/nccd.pdf)
 - Hinton, G. E., Osindero, S., & Teh, Y. W. (2006). A fast learning algorithm for deep belief nets. _Neural Computation_. [PDF](https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf)
-- Hinton, G. E., & Salakhutdinov, R. R. (2006). Reducing the dimensionality of data with neural networks. _Science_. [PDF](https://www.cs.toronto.edu/~hinton/science.pdf)
+- Hinton, G. E., & Salakhutdinov, R. R. (2006). Reducing the dimensionality of data with neural networks. _Science_. [PDF](https://www.cs.toronto.edu/~hinton/absps/science.pdf)
 - Kingma, D. P., & Welling, M. (2013). Auto-encoding variational Bayes. [arXiv:1312.6114](https://arxiv.org/abs/1312.6114)
 - Rezende, D. J., Mohamed, S., & Wierstra, D. (2014). Stochastic backpropagation and approximate inference in deep generative models. [arXiv:1401.4082](https://arxiv.org/abs/1401.4082)
 - Goodfellow, I., et al. (2014). Generative adversarial nets. [arXiv:1406.2661](https://arxiv.org/abs/1406.2661)
@@ -178,7 +178,7 @@ In-text links point at PDFs or arXiv abstracts. I list them here in roughly hist
 - Kondratyuk, D., et al. (2023). VideoPoet: A large language model for zero-shot video generation. [arXiv:2312.14125](https://arxiv.org/abs/2312.14125)
 - Esser, P., et al. (2024). Scaling rectified flow transformers for high-resolution image synthesis. [arXiv:2403.03206](https://arxiv.org/abs/2403.03206)
 - Tian, K., et al. (2024). Visual autoregressive modeling: Scalable image generation via next-scale prediction. [arXiv:2404.02905](https://arxiv.org/abs/2404.02905)
-- Brooks, T., et al. (2024). Video generation models as world simulators. OpenAI. [report](https://openai.com/index/video-generation-models-as-world-simulators/)
+- Brooks, T., et al. (2024). Video generation models as world simulators. OpenAI. [report](https://en.wikipedia.org/wiki/Sora_(text-to-video_model))
 - Chameleon Team. (2024). Chameleon: Mixed-modal early-fusion foundation models. [arXiv:2405.09818](https://arxiv.org/abs/2405.09818)
 - Sun, P., et al. (2024). Autoregressive model beats diffusion: Llama for scalable image generation. [arXiv:2406.06525](https://arxiv.org/abs/2406.06525)
 - Li, T., et al. (2024). Autoregressive image generation without vector quantization. [arXiv:2406.11838](https://arxiv.org/abs/2406.11838)
