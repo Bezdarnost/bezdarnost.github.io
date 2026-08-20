@@ -202,6 +202,7 @@ h6,
   list-style: none;
   padding: 0;
   margin: 0 0 1.5rem;
+  display: flow-root;
 }
 
 .fact-list li {
@@ -227,6 +228,7 @@ h6,
 }
 
 .site-quote {
+  display: flow-root;
   background: transparent;
   border: none;
   border-left: 2px solid var(--global-theme-color);
